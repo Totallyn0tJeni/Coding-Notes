@@ -2,3 +2,69 @@ Jenisha Patel
 2024/03/23
 Learn to Program: The Fundamentals - University of Toronto
 
+Arithmetic Operators
+  addition ~ +
+  subtraction ~ -
+  multiplication ~ *
+  exponentiation ~ ** 
+  division ~ /
+  integer division ~ //
+  modulo (remainder) ~ %
+
+Types int and float
+A type is a set of values and operations that can be performed on those values.
+
+Two of Python's numeric types:
+  int: integer
+  float: floating point number (an approximation to a real number)
+
+Arithmetic Operator Precedence
+When multiple operators are combined in a single expression, the operations are evaluated in order of precedence.
+
+  ** (exponentiation)
+  - (negation)
+  *, /, //, %
+  + (addition), - (subtraction)
+
+Syntax and Semantics
+  Syntax: the rules that describe valid combinations of Python symbols
+  Semantics: the meaning of a combination of Python symbols is the meaning of an instruction — what a particular combination of symbols does when you execute it.
+  Errors
+
+A syntax error occurs when we an instruction with invalid syntax is executed. For example:
+>>> 3) + 2 * 4
+SyntaxError: invalid syntax
+
+A semantic error occurs when an instruction with invalid semantics is executed. For example:
+>>> 89.4 / 0
+Traceback (most recent call last):
+  File "", line 1, in
+    89.4 / 0
+ZeroDivisionError: float division by zero
+
+Python and Computer Memory
+
+Computer Memory
+For the purpose of this course, you may think of computer memory as a long list of storage locations where each location is identified with a unique number and each location houses a value. This unique number is called a memory address. Typically, we will write memory addresses as a number with an "id" as a prefix to distinguish them from other numbers (for example, id201 is memory address 201).
+Variables are a way to keep track of values stored in computer memory. A variable is a named location in computer memory. Python keeps variables in a separate list from values. A variable will contain a memory address, and that memory address contains the value. The variable then refers to the value. Python will pick the memory addresses for you.
+
+Terminology
+  A value has a memory address.
+  A variable contains a memory address.
+  A variable refers to a value.
+  A variable points to a value.
+
+Example: Value 8.5 has memory address id34.
+         Variable shoe_size contains memory address id34.
+         The value of shoe_size is 8.5.
+         shoe_size refers to value 8.5.
+         shoe_size points to value 8.5.
+
+Variables
+
+Assignment statements
+The general form of an assignment statement:
+variable = expression
+
+
+
